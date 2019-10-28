@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="home">go back home</string>
+    <string name="question">Question</string>
+    <string name="play_again">jouer encore</string>
+    <string name="time">15</string>
+    <string name="correct">reponse Correcte</string>
+    <string name="joker">tu triche!</string>
+    <string name="wrongans">pas de chance</string>
+    <string name="timeup">temps epuisé</string>
+    <string name="play_game">jouer</string>
+    <string name="quit">Quitter</string>
+    <string name="highscore">Meilleurs Scores</string>
+    <string name="next">suivant</string>
+    <string name="cancel">✖</string>
+</resources>

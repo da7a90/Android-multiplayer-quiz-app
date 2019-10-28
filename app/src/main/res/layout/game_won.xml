@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor">
+
+
+    <TextView
+        android:id="@+id/winner"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="20dp"
+        android:textSize="50sp"
+        android:textColor="@color/lightGreen"
+        android:text=""/>
+
+    <info.hoang8f.widget.FButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/play_again"
+        android:textColor="@color/white"
+        android:id="@+id/platygaianbutton"
+        android:layout_margin="15dp"
+        android:onClick="PlayAgain"
+        />
+    <info.hoang8f.widget.FButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/home"
+        android:textColor="@color/white"
+        android:id="@+id/backhome"
+        android:layout_margin="15dp"
+        android:onClick="HomeScreen"
+        />
+</LinearLayout>
